@@ -1,0 +1,34 @@
+  <!--Syntax -->  
+  <!-- database containing one or more tables -->
+  <!-- table; identified by name, containing records in rows with data -->
+  
+  
+  
+  <!-- SQL statement  --> 
+  
+  SELECT * FROM Customers;
+  <!-- select all the records -->  
+  
+  
+  <!-- Semicolon after statements -->
+  
+  
+  
+  <!-- The most important SQL Commands -->
+  
+  <!-- SELECT :extracts data -->
+  <!-- UPDATE :data -->
+  <!-- DELETE :data -->  
+  <!-- INSERT INTO :insert new data into database-->
+  
+  <!-- CREATE DATABASE :a new database -->
+  <!-- ALTER DATABASE :modify -->
+  
+  <!-- CREATE TABLE -->
+  <!-- ALTER TABLE -->
+  <!-- DROP TABLE : delete table-->
+  
+  <!-- CREATE INDEX -->
+  <!-- DROP INDEX -->  
+  
+  
