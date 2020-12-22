@@ -35,3 +35,5 @@ puts ratings
   puts time
 }
 method .times sends a value to variable |time|
+  
+#https://mixandgo.com/learn/ruby-blocks
