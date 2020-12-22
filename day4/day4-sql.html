@@ -1,0 +1,20 @@
+<!-- SELECT DISTINCT Syntax -->
+SELECT DISTINCT column1, column2 FROM table_name;
+
+<!-- 
+With the Distinct the statement can select only the DISDICNT values from the column in the table.
+Among a lot of Countries, no repeats. 
+
+Example;
+Table name is Customers.
+Columns: customersID, CustomerName, ContactName, ..., City, Address, PostalCode, Country
+-->
+
+<!-- all the countries -->
+SELECT Country FROM Customers;
+
+<!-- all the countries without repeat-->
+SELECT DISTINCT Country FROM Customers;
+
+<!-- The number of the countries -->
+SELECT Count(*) AS DistinctCountries FROM (SELECT DISTINCT Country FROM Customers);
