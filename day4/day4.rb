@@ -29,7 +29,7 @@ puts ratings
 
 #Block is surrounded by curly braces.
 5.times {print "Odelay"}
-#Block is always with methods. in this case, times is methods. 
+#Block is always with methods. in this case, times is method. 
 
 2.times { |time|
   puts time
