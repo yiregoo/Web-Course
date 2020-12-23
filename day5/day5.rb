@@ -51,8 +51,16 @@ puts "#{keys}"
 puts "#{keys[0]}"
 puts "#{keys[1]}"
 
+#using some methods
 
 
+puts animals.length
+
+puts animals == cars
+
+puts animals.empty?
+
+puts animals.merge(chairs)
 
 
 
