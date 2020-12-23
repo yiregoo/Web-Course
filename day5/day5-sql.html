@@ -1,0 +1,64 @@
+<!-- where clause 
+  
+   used to filter records
+   filter only the records that fulfill a specified condition.
+   
+   with SELECT, UPDATE, DELETE usable.
+-->
+
+
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+<!-- selecting the customers from Germany -->
+SELECT * FROM Customers
+WHERE Country='Germany';
+
+<!-- selecting the customers from Berlin -->
+SELECT * FROM Customers
+WHERE City='Berlin';
+
+<!-- Text field: single quotes around text values 
+     Numeric field: not enclosed-->
+
+SELECT * FROM Customers
+WHERE CustomerID=1;
+
+
+<!-- Operators
+
+  = equal
+  > Greater than
+  < Less than
+  >= greater than or equal
+  <= less than or equal
+  <> not equal, some versions could be !=
+  
+  BETWEEN 
+  between a vertain range
+ 
+  SELECT * FROM Products
+WHERE Price BETWEEN 50 AND 60;
+  
+  
+  LIKE 
+  Search for a pattern
+  
+  SELECT * FROM Customers
+WHERE City LIKE 's%';
+ SELECT * FROM Customers
+WHERE Country LIKE 's%';
+  
+  
+  IN 
+  to specify multiple possible values for a column
+
+SELECT * FROM Customers
+WHERE City IN ('Paris','London');
+SELECT * FROM Customers
+WHERE Country IN ('Sweden','Germany');
+
+
+-->
+
