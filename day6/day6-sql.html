@@ -1,0 +1,21 @@
+<!--AND, OR and NOT Operators -->
+
+<!-- select all customers who live in Berlin and Germany -->
+SELECT * FROM Customers
+WHERE Country='Germany' AND City='Berlin';
+
+<!-- select all customers who live in Berlin or München -->
+SELECT * FROM Customers
+WHERE City='Berlin' OR City='München';
+SELECT * FROM Customers
+WHERE Country='Germany' OR Country='Spain';
+
+<!-- select all customers except for who live in Germany -->
+SELECT * FROM Customers
+WHERE NOT Country='Germany';
+
+<!-- Combining AND, OR and NOT -->
+SELECT * FROM Customers
+WHERE Country='Germany' AND (City='Berlin' OR City='München');
+SELECT * FROM Customers
+WHERE NOT Country='Germany' AND NOT Country='USA';
