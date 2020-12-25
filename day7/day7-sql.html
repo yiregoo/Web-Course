@@ -1,0 +1,29 @@
+<!-- The SQL ORDER BY Keyword 
+
+ORDER BY is used to sort in ascending or descending order.
+by default, in ascending.
+To sort in descending order, use the DESC.
+
+-->
+
+
+SELECT * FROM Customers
+ORDER BY Country;
+
+SELECT * FROM Customers
+ORDER BY ContactName;
+
+SELECT * FROM Customers
+ORDER BY Country DESC;
+
+SELECT * FROM Customers
+ORDER BY City DESC;
+
+
+<!-- ORDER BY Several Columns Example-->
+SELECT * FROM Customers
+ORDER BY Country, CustomerName;
+<!-- Order Country in ascending and CustomerName in descending -->
+SELECT * FROM Customers
+ORDER BY Country ASC, CustomerName DESC;
+
