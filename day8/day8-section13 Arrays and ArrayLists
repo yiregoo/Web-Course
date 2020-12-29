@@ -1,0 +1,23 @@
+//Arrays
+
+ int[] marks = {75, 60, 56}
+marks ==> int[3] { 75, 60, 56 }
+
+jshell> int sum =0;
+sum ==> 0
+
+jshell> for(int mark:marks){
+   ...>     sum= sum + mark;
+   ...> }
+
+jshell> sum
+sum ==> 191
+
+
+
+
+
+/**************************/
+
+ int[] marks2 = new int[5];
+marks2 ==> int[5] { 0, 0, 0, 0, 0 }
